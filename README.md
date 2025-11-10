@@ -1,0 +1,24 @@
+HOW TO RUN CURR.ASM {PING PONG GAME}
+
+FIRST GO TO THE PATH : "ASSEMBLY\HELP\DosboxPortable\Data\settings"
+OPEN dosbox IN A TEXT EDITOR
+
+AT THE VERY LAST WHERE THERES
+
+mount x D:/Work/ASSEMBLY
+x:
+nasm curr.asm -o curr.com
+
+JUST CHANGE THAT TO
+
+mount x <path/to/the/local/repo>/ASSEMBLY
+x:
+nasm curr.asm -o curr.com
+
+THE .ASM FILE HAS ALREADY BEEN ASSEMBLED AT STARTUP 
+
+
+THEN GO TO THE PATH : "ASSEMBLY\HELP\DosboxPortable"
+AND RUN "DOSBoxPortable" Application
+
+{WAIT A FEW SECONDS IT AFTER YOU OPEN DOSBOX PORTAL IT TAKES A WHILE TO ASSEMBLE}
